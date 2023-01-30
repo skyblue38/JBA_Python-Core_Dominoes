@@ -1,0 +1,19 @@
+type: code
+custom_name: "Money, money, money!"
+files:
+- name: main.py
+  visible: true
+  text: |-
+    import re
+
+    string = input()
+    regex = r'$\d+'
+    match = re.match(regex, string)
+    if match:
+        print('Amount found: ', match.group())
+    else:
+        print('No match!')
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15073#comment
+status: Solved
+record: -1

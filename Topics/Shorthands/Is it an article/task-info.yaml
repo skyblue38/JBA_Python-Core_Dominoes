@@ -1,0 +1,17 @@
+type: code
+custom_name: Is it an article?
+files:
+- name: main.py
+  visible: true
+  text: |-
+    import re
+
+    word = input()
+    # your code here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15074#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sat, 28 Jan 2023 09:23:54 UTC"
+record: -1
